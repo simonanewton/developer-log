@@ -1,4 +1,4 @@
-# Web Developer Portfolio
+# Web Developer Log
 
 <div align="center">
     <img src="./assets/site-header.png" alt="Web Developer Log Header" width="80%" />
@@ -6,28 +6,40 @@
 
 ## Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project was created in effort to practice creating a full stack web application using a 
+well-established third party API from a popular platform. It has also been a useful way to use 
+a MERN stack application to practice working around a third party API in conjunction with a 
+MongoDB database. By using the Twitter platform as a design model for this application, I was able to 
+replicate many of the important features of a social media feed, while being sure to design mobile-first.
+
+IMPORTANT: Since Twitter was bought and changed to X, this application no longer functions correctly 
+due to X making their API services no longer free. I have plans to manually input the profile's feed 
+data into the database so that the website can still show previous activity, but currently the hosted 
+site does not work.
 
 ## Table of Contents
 
 * [Description](#description)
+* [Preview](#preview)
 * [Development](#development)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Reflection](#reflection)
 * [Contributing](#contributing)
 * [Credits](#credits)
 * [License](#license)
 
+## Preview
+
+<div align="center">
+    <img src="./assets/site-preview.png" alt="Site Preview" width="100%" />
+</div>
+
 ## Development
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This code example is used to show how the main parent component asynchronously pulls data from the 
+back-end internal API and passes it on to the child components. Visually, the app emulates the classic 
+Twitter feed by styling first for the smallest viewport sizes taking advantage of Bootstrap's breakpoint 
+classes.
 
 ```js
 class App extends Component {
@@ -82,21 +94,14 @@ To use this application, run the following command:
 npm start
 ```
 
-## Reflection
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 ## Contributing
 
 <div>
     <img src="./assets/profile-picture-circle.png" alt="Simon Newton Profile Picture" width=250 />
     <h3><b>Simon Newton</b></h3>
     <hr align=left width=350 />
-    <p>Hey I'm Simon and I'm a Junior Full-Stack Web Developer!</p>
-    <a href="https://github.com/simonanewton" target="_blank">GitHub Profile</a> | <a href="https://www.linkedin.com/in/simon-newton-2a7440129/" target="_blank">LinkedIn Profile</a> | <a href="https://simonanewton.herokuapp.com/" target="_blank">Personal Website</a>
+    <p>Full-Stack Web Developer!</p>
+    <a href="https://github.com/simonanewton" target="_blank">GitHub Profile</a> | <a href="https://www.linkedin.com/in/simonanewtondev/" target="_blank">LinkedIn Profile</a> | <a href="https://developer-portfolio-yqdu.onrender.com/" target="_blank">Personal Website</a>
 </div>
 
 ## Credits
