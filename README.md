@@ -4,6 +4,10 @@
     <img src="./assets/site-header.png" alt="Web Developer Log Header" width="80%" />
 </div>
 
+## NOTICE
+
+This website is currently under maintenance due to issues with the X API. Will be back up within the week. - 8/23/25
+
 ## Description
 
 This project was created in effort to practice creating a full stack web application using a 
