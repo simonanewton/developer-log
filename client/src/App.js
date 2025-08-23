@@ -15,14 +15,14 @@ class App extends Component {
 		}
 	}
 
-	componentDidMount = async () => {
-		const response = await API.updateTweets();
-		console.log(response);
+	// componentDidMount = async () => {
+	// 	const response = await API.updateTweets();
+	// 	console.log(response);
 
-		const tweets = await API.getTweets();
-		const listTweets = await API.getListTweets();
-		this.setState({ tweets: tweets.data, news: listTweets.data });
-	}
+	// 	const tweets = await API.getTweets();
+	// 	const listTweets = await API.getListTweets();
+	// 	this.setState({ tweets: tweets.data, news: listTweets.data });
+	// }
 
 	render() {
 		return (

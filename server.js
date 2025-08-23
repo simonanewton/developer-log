@@ -16,9 +16,17 @@ app.use(express.json());
 
 if (process.env.NODE_ENV === "production") app.use(express.static("./client/build"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dev-log",
-    { useUnifiedTopology: true, useNewUrlParser: true }, () => console.log("Connected to Dev Log MongoDB database"));
+mongoose.connect(process.env.MONGODB_URI)
+    .then(() => {
+        console.log("Connected to Developer Log MongoDB Database");
 
-app.use(routes);
+        app.use(routes);
 
-app.listen(PORT, () => console.log(`Server is listening on http://localhost:${PORT}`));
+        app.listen(PORT, () => {
+            console.log(`Server is listening on http://localhost:${PORT}`);
+        });
+    })
+    .catch(err => {
+        console.error("MongoDB Connection Error:", err);
+        process.exit(1);
+    });
