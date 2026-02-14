@@ -6,7 +6,7 @@
 
 ## NOTICE
 
-This website is currently under maintenance due to issues with the X API. Will be back up within the week. - 8/23/25
+This website is currently under maintenance due to issues with the X API. Will redeploy soon. Please refer to screenshots for previews. - 2/14/26
 
 ## Description
 
